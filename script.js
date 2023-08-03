@@ -40,24 +40,24 @@ document.addEventListener("DOMContentLoaded", () => {
     setInterval(change, 2000)
 })
 
-const burger = document.querySelector(".burger-btn");
-const menu = document.querySelector(".burger-menu");
-const body = document.body;
+// const burger = document.querySelector(".burger-btn");
+// const menu = document.querySelector(".burger-menu");
+// const body = document.body;
 
-burger.addEventListener("click", burgerHandler);
-burger.addEventListener("touch", burgerHandler);
-window.addEventListener("resize", close);
+// burger.addEventListener("click", burgerHandler);
+// burger.addEventListener("touch", burgerHandler);
+// window.addEventListener("resize", close);
 
-function close() {
-    const width = window.innerWidth;
-    if (width > 949) {
-        menu.classList.remove("open");
-        body.classList.remove("noscroll");
-    }
-}
+// function close() {
+//     const width = window.innerWidth;
+//     if (width > 949) {
+//         menu.classList.remove("open");
+//         body.classList.remove("noscroll");
+//     }
+// }
 
-function burgerHandler(e) {
-    e.preventDefault();
-    menu.classList.toggle("open");
-    body.classList.toggle("noscroll");
-}
+// function burgerHandler(e) {
+//     e.preventDefault();
+//     menu.classList.toggle("open");
+//     body.classList.toggle("noscroll");
+// }
