@@ -1105,7 +1105,7 @@ footer .wrapper .footer__info p {
   color: #fff;
 }
 
-@media screen and (width < 1260px) {
+@media screen and (max-width < 1260px) {
   .wrapper {
     width: 98%;
   }
@@ -1195,7 +1195,7 @@ footer .wrapper .footer__info p {
     gap: 45px;
   }
 }
-@media screen and (width < 950px) {
+@media screen and (max-width < 950px) {
   header .wrapper nav {
     display: none;
   }
@@ -1249,7 +1249,7 @@ footer .wrapper .footer__info p {
     display: none;
   }
 }
-@media screen and (width < 800px) {
+@media screen and (max-width < 800px) {
   .hero .wrapper .hero__img-container #hero-img {
     width: 330px;
   }
@@ -1333,7 +1333,7 @@ footer .wrapper .footer__info p {
     display: none;
   }
 }
-@media screen and (width < 600px) {
+@media screen and (max-width < 600px) {
   body .transparent-btn {
     font-size: 12px;
   }
@@ -1507,7 +1507,7 @@ footer .wrapper .footer__info p {
     width: 90%;
   }
 }
-@media screen and (width < 480px) {
+@media screen and (max-width < 480px) {
   .wrapper {
     width: 340px;
   }
