@@ -1,0 +1,68 @@
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background: #0E0E0E;
+    }
+    .burger-menu {
+        background: $dark !important;
+    }
+    h1, h2, a, p, button, span {
+        color: $light-gray !important;
+    }
+    .filled-btn {
+        background: $light-gray !important;
+        color: $dark !important; 
+        border: 1px solid $light-gray !important;
+    }
+    .transparent-btn {
+        border: 1px solid $light-gray !important;
+        &:hover {
+            background: $light-gray !important;
+            color: $dark !important;
+        }
+    }
+    .hero__stats, .hero__review {
+        background: $dark !important;
+    }
+    .services__cards {
+        .cards__row {
+            .card {
+                background: $dark-blue;
+                border: 1px solid rgba(255, 255, 255, 0.10) !important;
+            }
+            &:nth-child(1) {
+                .card {
+                    .card__img-box {
+                        background: $light-gray !important;
+                    }
+                    &:nth-child(2) {
+                        .card__img-box {
+                            background: $light-red !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .card {
+                    .card__img-box {
+                        background: $light-green !important;
+                    }
+                    &:nth-child(2) {
+                        .card__img-box {
+                            background: $light-orange !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonial__card {
+        background: $dark-blue !important;
+    }
+    footer {
+        .footer__logo {
+            p, span {
+                color: $light-black !important;
+            }
+        }
+    }
+}
