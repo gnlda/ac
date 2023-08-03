@@ -45,6 +45,7 @@ const menu = document.querySelector(".burger-menu");
 const body = document.body;
 
 burger.addEventListener("click", burgerHandler);
+burger.addEventListener("touch", burgerHandler);
 window.addEventListener("resize", close);
 
 function close() {
