@@ -46,9 +46,10 @@ const body = document.body;
 
 burger.addEventListener("click", burgerHandler);
 burger.addEventListener("touch", burgerHandler);
-window.addEventListener("resize", close);
+window.addEventListener("resize", closeByWidth);
+menu.addEventListener("click", burgerHandler)
 
-function close() {
+function closeByWidth() {
     const width = window.innerWidth;
     if (width > 949) {
         menu.classList.remove("open");
@@ -57,7 +58,6 @@ function close() {
 }
 
 function burgerHandler(e) {
-    e.preventDefault();
     menu.classList.toggle("open");
     body.classList.toggle("noscroll");
 }
